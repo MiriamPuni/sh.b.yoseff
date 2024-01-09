@@ -1,0 +1,48 @@
+.loginContainer {
+   display: flex;
+   padding: 150px 20px;
+   justify-content: center;
+}
+
+.loginForm {
+   width: 300px;
+   max-width: 100%;
+   padding: 20px;
+   background-color: #f8f8f8;
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm h1 {
+   margin-bottom: 2rem;
+}
+
+.formGroup {
+   margin-bottom: 20px;
+}
+
+.formGroup label {
+   display: block;
+   font-size: .8em;
+   margin-bottom: 5px;
+}
+
+.formGroup input {
+   width: 100%;
+   padding: 5px 10px;
+   font-size: 1em;
+   border-radius: 5px;
+   outline: none;
+}
+
+.button {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 20px;
+
+   display: block;
+   margin: 0 auto;
+   border-radius: 4px;
+   cursor: pointer;
+}
